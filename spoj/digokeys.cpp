@@ -18,7 +18,7 @@ struct mypair{
 		this.len = len;
 		this.index = index;
 	}*/
-};
+};  
 #define MAX 10000000
 mypair* bfs(node** arr, int cur_ind, int n){
 	if(cur_ind == n)
