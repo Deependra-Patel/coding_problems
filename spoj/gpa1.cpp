@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+#include <stdio.h>
 using namespace std;
 int main()
 {
@@ -61,6 +62,8 @@ int main()
 				
 				int g;
 				float sum=a+f+p;
+				//cout<<"dd"<<i<<endl;
+				//cout<<a<<endl<<f<<endl<<p<<endl;
 				if(sum>=91)
 				g=10;
 				else
@@ -71,7 +74,7 @@ int main()
 				g=8;
 				else
 				if(sum>=61)
-				g=6;
+				g=7;
 				else
 				if(sum>50)
 				g=6;
@@ -96,8 +99,8 @@ int main()
 			if(pass==false)
 			cout<<"FAILED, ";
 			else cout<<"PASSED, ";
-			printf("%.2f",answ);
-			cout<<endl;
+			printf("%.2f\n",answ);
+			//cout<<endl;
 	}
 }
 
